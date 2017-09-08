@@ -11,7 +11,7 @@ recognizer = sr.Recognizer()
 recognizerInput = sr.Microphone()
 
 try:
-    print ("Hello, whalecum, please be silent.")
+    print ("Hello, please be silent.")
     engine.say("Gretings, travler")
     with recognizerInput as source: recognizer.adjust_for_ambient_noise(source)
     format(recognizer.energy_threshold)
