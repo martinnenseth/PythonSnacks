@@ -1,0 +1,24 @@
+Aug 24 03:57:28 localhost sshd[18416]: Failed password for root from 202.109.143.35 port 3852 ssh2
+Aug 24 03:57:28 localhost sshd[18416]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:30 localhost sshd[18416]: Failed password for root from 202.109.143.35 port 3852 ssh2
+Aug 24 03:57:31 localhost sshd[18416]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:33 localhost sshd[18416]: Failed password for root from 202.109.143.35 port 3852 ssh2
+Aug 24 03:57:34 localhost sshd[18416]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:35 localhost sshd[18416]: Failed password for root from 202.109.143.35 port 3852 ssh2
+Aug 24 03:57:37 localhost sshd[18416]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:40 localhost sshd[18416]: Failed password for root from 202.109.143.35 port 3852 ssh2
+Aug 24 03:57:41 localhost sshd[18416]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:43 localhost sshd[18416]: Failed password for root from 202.109.143.35 port 3852 ssh2
+Aug 24 03:57:43 localhost sshd[18416]: Disconnecting: Too many authentication failures for root [preauth]
+Aug 24 03:57:43 localhost sshd[18416]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=202.109.143.35  user=root
+Aug 24 03:57:43 localhost sshd[18416]: PAM service(sshd) ignoring max retries; 6 > 3
+Aug 24 03:57:48 localhost sshd[18418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=202.109.143.35  user=root
+Aug 24 03:57:48 localhost sshd[18418]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:51 localhost sshd[18418]: Failed password for root from 202.109.143.35 port 1910 ssh2
+Aug 24 03:57:51 localhost sshd[18418]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:53 localhost sshd[18418]: Failed password for root from 202.109.143.35 port 1910 ssh2
+Aug 24 03:57:53 localhost sshd[18418]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:55 localhost sshd[18418]: Failed password for root from 202.109.143.35 port 1910 ssh2
+Aug 24 03:57:55 localhost sshd[18418]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Aug 24 03:57:57 localhost sshd[18418]: Failed password for root from 202.109.143.35 port 1910 ssh2
+Aug 24 03:57:59 localhost sshd[18418]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met
